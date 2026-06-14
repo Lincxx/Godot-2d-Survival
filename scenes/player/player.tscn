@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c6eq7e25yul0j"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=364026388]
+position = Vector2(4, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1327939298]
