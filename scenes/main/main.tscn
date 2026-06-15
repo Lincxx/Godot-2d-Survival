@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://c6eq7e25yul0j" path="res://scenes/player/player.tscn" id="1_hyk8p"]
 [ext_resource type="TileSet" uid="uid://dio24jjpjj37o" path="res://resources/tile_set.tres" id="1_iuonh"]
 [ext_resource type="PackedScene" uid="uid://bb6bc0d3trhvu" path="res://scenes/game_camera/game_camera.tscn" id="1_k2fmo"]
+[ext_resource type="PackedScene" uid="uid://dnv3a4yc477yh" path="res://scenes/basic_enemy/basic_emeny.tscn" id="4_l3cfh"]
 
 [node name="Main" type="Node" unique_id=650697135]
 
@@ -19,3 +20,8 @@ tile_set = ExtResource("1_iuonh")
 
 [node name="Player" parent="." unique_id=364026388 groups=["player"] instance=ExtResource("1_hyk8p")]
 position = Vector2(28, 31)
+collision_layer = 0
+
+[node name="BasicEmeny" parent="." unique_id=1304247287 instance=ExtResource("4_l3cfh")]
+position = Vector2(328, 198)
+collision_layer = 0
